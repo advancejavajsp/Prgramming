@@ -1,0 +1,148 @@
+An electricity department wants to automate monthly billing.
+
+A customer provides the total number of units consumed in a month.
+
+The billing rules are:
+
+For the first 100 units, charge ₹2 per unit.
+
+For units between 101 and 300, charge ₹4 per unit.
+
+For units above 300, charge ₹6 per unit.
+
+After calculating the total bill:
+
+If the total amount exceeds ₹2000, apply a 10% surcharge on the total bill.
+
+Write a program to calculate and display the final electricity bill amount.
+----------------------------------------------------------
+A bank wants to build a system to determine loan eligibility.
+
+The system takes the applicant’s salary, CIBIL score, and age as input.
+
+Eligibility rules:
+
+If salary is ₹30,000 or more AND CIBIL score is 750 or above → Applicant is Eligible.
+
+If salary is ₹25,000 or more AND CIBIL score is 700 or above → Applicant is Conditionally Eligible.
+
+Otherwise → Applicant is Not Eligible.
+
+However:
+
+The applicant’s age must be between 21 and 60 years.
+
+If age is outside this range → Automatically Not Eligible.
+
+Write a program to determine and display the loan status.
+
+--------------------------------------------------------------------------------------
+A food delivery application calculates delivery charges based on the order value.
+
+The system takes:
+
+Order amount
+
+Whether the customer is a premium member
+
+Delivery rules:
+
+If order amount is less than ₹500 → Delivery charge ₹50
+
+If order amount is between ₹500 and ₹1000 → Delivery charge ₹30
+
+If order amount is ₹1000 or more → Free delivery
+
+Special rule:
+
+If the customer is a premium member → Delivery is always free, regardless of order amount.
+
+Write a program to calculate the total payable amount including delivery charges.
+
+----------------------------------------------------------------------------------------
+
+A cinema hall wants to calculate ticket prices dynamically.
+
+The system takes:
+
+Day type (Weekday or Weekend)
+
+Age of the customer
+
+Whether it is a 3D show
+
+Base pricing:
+
+Weekday ticket → ₹150
+
+Weekend ticket → ₹200
+
+Discount rules:
+
+If age is below 12 → 50% discount
+
+If age is above 60 → 30% discount
+
+Additional charge:
+
+If it is a 3D show → Add ₹50 to the ticket price.
+
+Write a program to calculate and display the final ticket price.
+-------------------------------------------------------------------------------------
+Gym Membership Plan
+Inputs:
+
+Age
+
+Plan Type (Monthly / Quarterly / Yearly)
+
+Personal Trainer (Yes/No)
+
+Rules:
+
+Monthly → ₹2000
+
+Quarterly → ₹5000
+
+Yearly → ₹18000
+
+Extra Rules:
+
+Age > 50 → 20% discount
+
+Personal Trainer → add ₹3000
+
+Yearly plan → additional 10% discount
+
+---------------------------------------------------------------------------------------
+Hospital calculates final bill.
+
+Inputs:
+
+Room Type (General / Private / ICU)
+
+Number of Days
+
+Insurance (Yes/No)
+
+Room Charges per Day:
+
+General → ₹2000
+
+Private → ₹5000
+
+ICU → ₹8000
+
+Extra Rules:
+
+If days > 7 → 10% discount
+
+If Insurance → 80% covered by insurance
+
+Display:
+
+Total Bill
+
+Insurance Coverage
+
+Amount Patient Pays

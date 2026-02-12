@@ -1,0 +1,172 @@
+1️⃣ Banking System – Account + Operation
+
+A bank application performs operations based on account type and selected action.
+
+Input 1: Account Type
+
+1 → Savings
+
+2 → Current
+
+Input 2: Operation
+
+1 → Deposit
+
+2 → Withdraw
+
+3 → Check Balance
+
+Rules:
+
+If Savings → Withdrawal limit ₹25,000
+
+If Current → No withdrawal limit
+
+Design a nested switch where:
+
+Outer switch → Account Type
+
+Inner switch → Operation
+
+Display appropriate messages and validation.
+
+2️⃣ Online Food Ordering – Restaurant + Dish
+
+A food app has multiple restaurants.
+
+Input 1: Restaurant
+
+1 → South Indian
+
+2 → North Indian
+
+3 → Chinese
+
+Input 2: Dish
+
+South Indian:
+
+1 → Idli
+
+2 → Dosa
+
+North Indian:
+
+1 → Roti
+
+2 → Paneer
+
+Chinese:
+
+1 → Noodles
+
+2 → Manchurian
+
+Display selected dish based on both choices.
+If invalid → show proper error.
+
+3️⃣ University System – Department + Year
+
+A university wants to display subjects based on department and year.
+
+Input 1: Department
+
+1 → CSE
+
+2 → ECE
+
+Input 2: Year
+
+CSE:
+
+1 → Programming
+
+2 → Data Structures
+
+3 → DBMS
+
+ECE:
+
+1 → Circuits
+
+2 → Signals
+
+3 → Microprocessors
+
+Design nested switch logic to display subject list.
+
+4️⃣ E-commerce – Category + Payment Mode
+
+Input 1: Product Category
+
+1 → Electronics
+
+2 → Clothing
+
+Input 2: Payment Mode
+
+1 → UPI
+
+2 → Credit Card
+
+3 → COD
+
+Rules:
+
+Electronics:
+
+UPI → 5% discount
+
+Credit Card → 10% discount
+
+COD → No discount
+
+Clothing:
+
+UPI → 10% discount
+
+Credit Card → 5% discount
+
+COD → ₹50 extra charge
+
+Calculate and display final payable amount.
+
+5️⃣ Cinema Booking – Screen Type + Seat Type
+
+Input 1: Screen Type
+
+1 → 2D
+
+2 → 3D
+
+Input 2: Seat Type
+
+1 → Regular
+
+2 → Premium
+
+3 → Recliner
+
+Base Prices:
+
+2D:
+
+Regular → ₹150
+
+Premium → ₹250
+
+Recliner → ₹400
+
+3D:
+
+Regular → ₹200
+
+Premium → ₹300
+
+Recliner → ₹450
+
+Additional Rule:
+
+Weekend → Add ₹50
+
+Use nested switch to calculate final ticket price.

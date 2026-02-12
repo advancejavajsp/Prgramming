@@ -1,0 +1,149 @@
+1 School Game Timetable
+
+A school follows a weekly sports timetable:
+
+Monday → Basketball
+
+Tuesday → Tennis
+
+Wednesday → Basketball
+
+Thursday → Cricket
+
+Friday → Tennis
+
+Saturday → Exercise
+
+Sunday → Holiday
+
+Write a program using switch to read the day and display the activity.
+-----------------------------------------------------------------------------------
+2 Restaurant Menu Selection
+
+A restaurant has the following menu:
+
+1 → Idli
+
+2 → Dosa
+
+3 → Biryani
+
+4 → Meals
+
+5 → Ice Cream
+
+Write a program that reads the menu number and displays the selected item.
+If invalid choice → display “Invalid Menu Option”.
+-----------------------------------------------------------------------------------------
+3 ATM Machine Options
+
+ATM shows:
+
+1 → Check Balance
+
+2 → Withdraw
+
+3 → Deposit
+
+4 → Mini Statement
+
+5 → Exit
+
+Write a switch-case program that displays the selected operation.
+---------------------------------------------------------------------------------------
+4 Month Name Finder
+
+User enters a number (1–12).
+
+1 → January
+
+2 → February
+
+...
+
+12 → December
+
+Display the month name using switch case.
+If invalid → “Invalid Month”.
+-----------------------------------------------------------------------------------------
+5 Simple Calculator
+
+User enters:
+
+Operator (+, -, *, /)
+
+Two numbers
+
+Using switch case:
+
+Perform the operation
+
+Display result
+
+If invalid operator → “Invalid Operation”
+----------------------------------------------------------------------------------------
+6 Traffic Signal System
+
+User enters signal color:
+
+Red → Stop
+
+Yellow → Get Ready
+
+Green → Go
+
+Display the action using switch case.
+---------------------------------------------------------------------------------------
+7 Online Shopping Payment Mode
+
+User selects payment method:
+
+1 → UPI
+
+2 → Credit Card
+
+3 → Debit Card
+
+4 → Cash on Delivery
+
+Display the selected payment method.
+If invalid option → “Payment Failed”.
+----------------------------------------------------------------------------------------
+8 Grade Description System
+
+User enters grade:
+
+A → Excellent
+
+B → Very Good
+
+C → Good
+
+D → Average
+
+F → Fail
+
+Display the grade description using switch case.
+---------------------------------------------------------------------------------------
+9 Subscription Plan Selector
+
+Streaming app plans:
+
+1 → Basic (₹199)
+
+2 → Standard (₹399)
+
+3 → Premium (₹699)
+---------------------------------------------------------------------------------------
+Display plan details using switch case.
+
+10 Day Type Identifier
+
+User enters day name:
+
+Monday–Friday → “Weekday”
+
+Saturday–Sunday → “Weekend”
+
+Use switch case to categorize the day.
+---------------------------------------------------------------------
