@@ -36,3 +36,4 @@ If the customer is aged above 29 flat discount 15%.
 Assume the age and total purchase price is given as input.
 Write a program to calculate the total price of purchase after discount and display, 
 total price before discount,total price after discount,discounted amount if any.
+

@@ -1,3 +1,5 @@
+use switch or match
+
 1 School Game Timetable
 
 A school follows a weekly sports timetable:
@@ -17,6 +19,11 @@ Saturday → Exercise
 Sunday → Holiday
 
 Write a program using switch to read the day and display the activity.
+
+
+
+
+
 -----------------------------------------------------------------------------------
 2 Restaurant Menu Selection
 
@@ -32,7 +39,8 @@ A restaurant has the following menu:
 
 5 → Ice Cream
 
-Write a program that reads the menu number and displays the selected item.
+Write a program that reads the menu number and displays
+ the selected item.
 If invalid choice → display “Invalid Menu Option”.
 -----------------------------------------------------------------------------------------
 3 ATM Machine Options
